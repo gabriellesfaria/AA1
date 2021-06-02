@@ -62,4 +62,4 @@ O requisito está parcialmente implementado porque, apesar de mostrar todas as v
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Divisão na implementação da funcionalidade: **Gabriel** (100%).
 
-#### OBS: Houve um problema com os commits, pois estava aparecendo a mensagem "Nothing to commit, working tree clean". Para resolver o problema, foi seguido um tutorial incorretamente, que infelizmente excluiu todos os commits que estavam presentes no repo. 
+#### OBS: Houve um problema com os commits, pois estava aparecendo a mensagem "Nothing to commit, working tree clean". Para resolver o problema, foi seguido um tutorial incorretamente, que infelizmente excluiu todos os commits que estavam presentes no repositório. 
