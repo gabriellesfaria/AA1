@@ -192,6 +192,7 @@ public class EmpresaController extends HttpServlet {
 		Long id_vaga = inscricao.getVaga();
 		
 		/*
+		 * 
 		 * // pega email da empresa
 		 * VagaDAO dao_v = new VagaDAO();
 		 * Vaga vaga = dao_v.get(id_vaga);
@@ -200,7 +201,9 @@ public class EmpresaController extends HttpServlet {
 		 * Empresa empresa = dao_e.get(id_empresa);
 		 * String from = empresa.getEmail();
 		 * String fromNome = empresa.getNome();
+		 * 
 		 */
+		
 		String from = "gabriellefaria@estudante.ufscar.br";
 		String fromNome = "From";
 
@@ -219,10 +222,11 @@ public class EmpresaController extends HttpServlet {
     	
 		// se ele tiver ido pra entrevista
     	if(status_inscricao.equals("ENTREVISTA")) {
-    		String link = "https://meet.google.com/csf-aybs-muy";
+    		String data = request.getParameter("dataEntrevista");
+    		String link = request.getParameter("linkEntrevista");
     		
         	String assunto = "PARABÉNS!!!";
-        	String mensagem = "Você foi chamado para entrevista na vaga de identificador " + id_vaga + ". A entrevista será daqui duas semanas, pelo link "+ link;
+        	String mensagem = "Você foi chamado para entrevista na vaga de identificador " + id_vaga + ". A entrevista será no dia"  + data  + ", pelo link "+ link;
         	
     		email.send(de, para, assunto, mensagem);
     	}
