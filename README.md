@@ -1,4 +1,4 @@
-# DSW1
+# AA1
 Repositório dedicado a Atividade Avaliativa 1 da disciplina de Desenvolvimento de Software para Web 1.
 
 ## Participantes: 
